@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: netlifytrial-olvm
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/pshivpuj-tenant/netlifytrial-2/netlifytrial-olvm@sha256:01ba25895a60b95ad1ff2198459c6724c2f82ebb13e21d0e3670a85eba0504cd
+        name: my-nodejs
+        resources: {}
+status: {}
