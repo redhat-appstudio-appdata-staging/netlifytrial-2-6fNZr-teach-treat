@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: netlifytrial-iyyh
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads-stage/pshivpuj-tenant/netlifytrial-2/netlifytrial-iyyh@sha256:993e311c112199fa62eda4e753292d2d515752dc1933adb6c5fd97e925e6dc5c
         name: my-nodejs
         ports:
         - containerPort: 3001
