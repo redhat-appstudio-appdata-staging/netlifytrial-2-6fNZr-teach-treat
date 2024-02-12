@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: netlifytrial-iyyh
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
